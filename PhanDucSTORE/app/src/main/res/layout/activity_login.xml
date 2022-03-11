@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity.LoginActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:src="@drawable/logo"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:textColorHint="#000"
+            app:startIconDrawable="@drawable/ic_email"
+
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <EditText
+                android:id="@+id/edt_EmailLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:background="@drawable/edittext_bg"
+                android:hint="Email"
+                android:textColor="#000"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:textColorHint="#000"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/ic_baseline_vpn_key_24"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <EditText
+                android:id="@+id/edt_PassLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:background="@drawable/edittext_bg"
+                android:hint="Mật khẩu"
+                android:textColor="#000"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/forgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quên mật khẩu ?"
+            android:textStyle="bold"
+            android:fontFamily="@font/cambriab"
+            android:textColor="#000"
+            android:gravity="right"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:id="@+id/text_SignIn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="ĐĂNG NHẬP"
+            android:textSize="23dp"
+            android:gravity="center"
+            android:fontFamily="@font/cambriab"
+            android:textColor="#FF5722"
+            android:background="@drawable/buttom_bg"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:weightSum="10"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Chưa có tài khoản."
+               android:gravity="right"
+               android:layout_weight="5"
+               android:textSize="16dp"
+               android:fontFamily="@font/cambriab"/>
+
+           <TextView
+               android:id="@+id/text_SignUp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Đăng Ký"
+               android:layout_marginLeft="10dp"
+               android:fontFamily="@font/cambriab"
+               android:textColor="#FF5722"
+               android:textStyle="bold"
+               android:textSize="18dp"/>
+
+       </LinearLayout>
+
+        <ProgressBar
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

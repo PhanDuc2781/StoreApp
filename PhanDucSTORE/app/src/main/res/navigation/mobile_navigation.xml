@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.phanduc_store.Fragments.HomeFragment"
+        android:label="Trang Chủ"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.phanduc_store.Fragments.GalleryFragment"
+        android:label="Thông Tin Cá Nhân"
+        tools:layout="@layout/profile_fragment" />
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="com.example.phanduc_store.Fragments.CatogeryFragment"
+        android:label="Phân Loại"
+        tools:layout="@layout/catogery_fragment" />
+    <fragment
+        android:id="@+id/nav_offers"
+        android:name="com.example.phanduc_store.Fragments.OffersFragment"
+        android:label="Cung Cấp"
+        tools:layout="@layout/fragment_offers" />
+    <fragment
+        android:id="@+id/nav_new_products"
+        android:name="com.example.phanduc_store.Fragments.NewProductsFragment"
+        android:label="Sản Phẩm Mới"
+        tools:layout="@layout/fragment_new_products" />
+    <fragment
+        android:id="@+id/nav_my_orders"
+        android:name="com.example.phanduc_store.Fragments.MyOrderFraagment"
+        android:label="Order"
+        tools:layout="@layout/fragment_my_order" />
+    <fragment
+        android:id="@+id/nav_my_carts"
+        android:name="com.example.phanduc_store.Fragments.MyCartFragment"
+        android:label="Giở Hàng"
+        tools:layout="@layout/fragment_my_cart" />
+    <fragment
+        android:id="@+id/nav_logOut"
+        android:name="com.example.phanduc_store.Fragments.LogOutFragment"
+        android:label="Đăng xuất"
+        tools:layout="@layout/fragment_log_out" />
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.phanduc_store.Fragments.AboutFragment"
+        android:label="Giới Thiệu"
+        tools:layout="@layout/fragment_about" />
+
+
+</navigation>

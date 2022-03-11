@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Fragments.HomeFragment">
+   <ProgressBar
+      android:id="@+id/progessBar"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:layout_centerInParent="true"/>
+   <ScrollView
+       android:id="@+id/scollView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <EditText
+          android:id="@+id/edt_Search"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="5dp"
+          android:background="@drawable/edittext_bg"
+          android:drawableRight="@drawable/ic_search"
+          android:elevation="3dp"
+          android:drawablePadding="5dp"
+          android:hint="Search..."
+          android:textColor="#000"
+          tools:ignore="TouchTargetSizeCheck" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+         android:orientation="horizontal">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            android:text="Bán Chạy"
+             android:textColor="#000"
+            android:fontFamily="@font/cambriab"
+            android:layout_marginLeft="5dp"
+            android:textSize="17dp"/>
+
+         <TextView
+             android:id="@+id/text_viewAllProducts"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            android:text="Tất cả"
+            android:textSize="20dp"
+
+            android:textColor="#FF5722"
+            android:fontFamily="@font/cambriab"
+            android:gravity="right"
+            android:layout_marginRight="5dp"/>
+
+      </LinearLayout>
+
+      <androidx.recyclerview.widget.RecyclerView
+         android:id="@+id/recycle_popular_Products"
+          android:layout_width="match_parent"
+          android:layout_margin="5dp"
+          android:layout_height="wrap_content"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:orientation="horizontal">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Danh Mục Sản Phẩm"
+             android:textColor="#000"
+             android:fontFamily="@font/cambriab"
+             android:layout_marginLeft="5dp"
+             android:textSize="17dp"/>
+
+         <TextView
+             android:id="@+id/text_viewAllCategories"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Tất cả"
+             android:textSize="20dp"
+             android:textColor="#FF5722"
+             android:fontFamily="@font/cambriab"
+             android:gravity="right"
+             android:layout_marginRight="5dp"/>
+
+      </LinearLayout>
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/recycle_Categories"
+          android:layout_width="match_parent"
+          android:layout_margin="5dp"
+          android:layout_height="wrap_content"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp"
+          android:orientation="horizontal">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Sản Phẩm Đề Suất"
+             android:fontFamily="@font/cambriab"
+             android:textColor="#000"
+             android:layout_marginLeft="5dp"
+             android:textSize="17dp"/>
+
+         <TextView
+             android:id="@+id/text_viewAllRecomments"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Tất cả"
+             android:textSize="20dp"
+             android:textColor="#FF5722"
+             android:fontFamily="@font/cambriab"
+             android:gravity="right"
+             android:layout_marginRight="5dp"/>
+
+      </LinearLayout>
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/recycle_Recommends"
+          android:layout_width="match_parent"
+          android:layout_margin="5dp"
+          android:layout_height="wrap_content"/>
+
+
+
+   </LinearLayout>
+   </ScrollView>
+</RelativeLayout>
+
+

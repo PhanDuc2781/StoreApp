@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    android:elevation="5dp"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_margin="10dp"
+
+    android:layout_height="140dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/Image_ViewProducts"
+            android:layout_width="100dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image1"
+            app:riv_corner_radius="10dp" />
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="4dp"
+                android:id="@+id/Name_ViewProducts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cambriab"
+                android:textColor="#FF5722"
+                android:textSize="18dp"
+                android:text="Name"/>
+
+
+
+
+            <TextView
+                android:id="@+id/Price_ViewProducts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cambriab"
+                android:textSize="15dp"
+                android:textColor="#FF5722"
+                android:text="Giá" />
+            <TextView
+                android:id="@+id/Descpistion_ViewProduct"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:fontFamily="@font/cambriab"
+                android:text="Mô Tả" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="14dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/star_rate"/>
+                <TextView
+                    android:id="@+id/Star_Rate_ViewProducts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.9"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/cambriab"
+                    android:textSize="15dp"
+                    android:textColor="#FFEB3B"
+                    android:layout_marginLeft="3dp"/>
+            </LinearLayout>
+
+
+
+            <ImageView
+                android:id="@+id/img_ViewProducts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_forward"
+                android:layout_gravity="right"/>
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

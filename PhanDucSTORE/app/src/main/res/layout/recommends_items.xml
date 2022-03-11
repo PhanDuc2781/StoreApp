@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="5dp">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/image_Recommends"
+            android:layout_width="130dp"
+            android:layout_height="180dp"
+            app:riv_corner_radius="10dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image1"/>
+        <TextView
+            android:id="@+id/text_nameRecommends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tên sản phẩm"
+            android:textColor="#FF5722"
+            android:fontFamily="@font/cambriab"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/price_Recommends"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:text="Giá"
+            android:textColor="#000000"
+            android:fontFamily="@font/cambriab"
+            android:textSize="14dp"/>
+
+        <TextView
+            android:id="@+id/text_Descriptions_Recommends"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="Giới thiệu"
+            android:fontFamily="@font/cambriab"
+            android:textSize="13dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="14dp"
+                android:src="@drawable/star_rate"/>
+
+            <TextView
+                android:id="@+id/Recommends_Star_Rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.9"
+                android:fontFamily="@font/cambriab"
+                android:textSize="15dp"
+                android:textColor="#FF5722"
+                android:layout_marginLeft="3dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

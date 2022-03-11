@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="T-STORE"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        android:fontFamily="@font/cambriab"/>
+
+    <ImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/newproducts" />
+
+    <ProgressBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rất vui được phục vụ qúy khách !"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/cambriab"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liên hệ : phanduc3523@gmail.com"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textColor="#FF5722"/>
+
+
+</LinearLayout>

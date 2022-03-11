@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RegisterActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/image_Profile"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_person" />
+
+        <ImageView
+            android:id="@+id/openCamera"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/image_Profile"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_menu_camera" />
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:textColorHint="#000"
+            app:startIconDrawable="@drawable/ic_person"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <EditText
+                android:id="@+id/edt_Name_Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:background="@drawable/edittext_bg"
+                android:hint="Họ và tên"
+                android:textColor="#000"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:textColorHint="#000"
+            app:startIconDrawable="@drawable/ic_email"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <EditText
+                android:id="@+id/edt_Email_Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:background="@drawable/edittext_bg"
+                android:hint="Email"
+                android:textColor="#000"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:textColorHint="#000"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/ic_baseline_vpn_key_24"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <EditText
+                android:id="@+id/edt_Pass_Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:background="@drawable/edittext_bg"
+                android:hint="Mật khẩu"
+                android:textColor="#000"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:textColorHint="#000"
+            app:passwordToggleEnabled="true"
+            app:startIconDrawable="@drawable/ic_baseline_vpn_key_24"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <EditText
+                android:id="@+id/edt_Re_Pass_Register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:background="@drawable/edittext_bg"
+                android:hint="Nhập lại Mật khẩu"
+                android:textColor="#000"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <TextView
+            android:id="@+id/text_Register"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="ĐĂNG KÝ"
+            android:textSize="23dp"
+            android:gravity="center"
+            android:fontFamily="@font/cambriab"
+            android:textColor="#FF5722"
+            android:background="@drawable/buttom_bg"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:layout_marginRight="10dp"
+            tools:ignore="DuplicateIds" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:weightSum="10"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đã có tài khoản."
+                android:gravity="right"
+                android:layout_weight="5"
+                android:textSize="16dp"
+                android:fontFamily="@font/cambriab"/>
+
+            <TextView
+                android:id="@+id/text_OpenLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng nhập"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/cambriab"
+                android:textColor="#FF5722"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
+
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

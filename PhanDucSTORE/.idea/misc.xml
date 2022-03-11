@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/drawable/bg_img.xml" value="0.2425" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/drawable/buttom_bg.xml" value="0.208" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/drawable/edittext_bg.xml" value="0.2485" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/drawable/edittextbg.xml" value="0.208" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/drawable/ic_baseline_vpn_key_24.xml" value="0.208" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/drawable/ic_camera.xml" value="0.208" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/drawable/ic_email.xml" value="0.208" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/drawable/ic_menu_camera.xml" value="0.208" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.208" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/drawable/ic_person.xml" value="0.208" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/drawable/ic_search.xml" value="0.2425" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/font/fonts.xml" value="0.3851851851851852" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/activity_detail_product.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/activity_login.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/activity_register.xml" value="0.35260416666666666" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/activity_start_screen.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/activity_view_products.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/app_bar_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/category_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/catogery_fragment.xml" value="0.33" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/content_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/content_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/fragment_gallery.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/fragment_log_out.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/fragment_my_cart.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/fragment_my_order.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/fragment_new_products.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/fragment_offers.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/fragment_slideshow.xml" value="0.3625" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/item_my_cart.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/nav_cat_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/nav_header_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/popular_products_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/profile_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/recommends_items.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/layout/view_products.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/menu/activity_main_drawer.xml" value="0.3625" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/menu/home.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
+        <entry key="..\:/PhanDucSTORE/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.208" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
